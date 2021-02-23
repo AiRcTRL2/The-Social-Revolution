@@ -1,0 +1,265 @@
+
+{
+    "data": [
+        {
+            "id": 1,
+            "question": "Being exposed as inferior or inadequate will be intolerable."
+        },
+        {
+            "id": 2,
+            "question": "I should avoid unpleasant situations at all costs."
+        },
+        {
+            "id": 3,
+            "question": "If people act friendly, they may be trying to use or exploit me."
+        },
+        {
+            "id": 4,
+            "question": "I have to resist the domination of authorities but at the same time maintain their approval and acceptance."
+        },
+        {
+            "id": 5,
+            "question": "I cannot tolerate unpleasant feelings."
+        },
+        {
+            "id": 6,
+            "question": "Flaws, defects, or mistakes are intolerable."
+        },
+        {
+            "id": 7,
+            "question": "Other people are often too demanding."
+        },
+        {
+            "id": 8,
+            "question": "I should be the center of attention."
+        },
+        {
+            "id": 9,
+            "question": "If I dont have systems, everything will fall apart."
+        },
+        {
+            "id": 10,
+            "question": "It's intolerable if I'm not accorded my due respect or don't get what I'm entitled to."
+        },
+        {
+            "id": 11,
+            "question": "It is important to do a perfect job on everything."
+        },
+        {
+            "id": 12,
+            "question": "I enjoy doing things more by myself than with other people."
+        },
+        {
+            "id": 13,
+            "question": "Other people try to use me or manipulate me if I don't watch out."
+        },
+        {
+            "id": 14,
+            "question": "Other people have hidden motives."
+        },
+        {
+            "id": 15,
+            "question": "The worst possible thing would be to be abandoned."
+        },
+        {
+            "id": 16,
+            "question": "Other people should recognize how special I am."
+        },
+        {
+            "id": 17,
+            "question": "Other people will deliberately try to demean me."
+        },
+        {
+            "id": 18,
+            "question": "I need others to help me make decisions or tell me what to do."
+        },
+        {
+            "id": 19,
+            "question": "Details are extremely important."
+        },
+        {
+            "id": 20,
+            "question": "If I regard people as too bossy, I have a right to disregard their demands."
+        },
+        {
+            "id": 21,
+            "question": "Authority figures tend to be intrusive, demanding, interfering, and controlling."
+        },
+        {
+            "id": 22,
+            "question": "The way to get what I want is to dazzle and amuse people."
+        },
+        {
+            "id": 23,
+            "question": "I should do whatever I can get away with."
+        },
+        {
+            "id": 24,
+            "question": "If other people find out things about me, they will use them against me."
+        },
+        {
+            "id": 25,
+            "question": "Relationships are messy and interfere with freedom."
+        },
+        {
+            "id": 26,
+            "question": "Only people as brilliant as I am understand me."
+        },
+        {
+            "id": 27,
+            "question": "Since I am so superior, I am entitled to special treatment and privleges."
+        },
+        {
+            "id": 28,
+            "question": "It is important for me to be free and independent of others."
+        },
+        {
+            "id": 29,
+            "question": "In many situations, I am better off to be left alone"
+        },
+        {
+            "id": 30,
+            "question": "It is necessary to stick to the highest standards at all times, or things will fall apart."
+        },
+        {
+            "id": 31,
+            "question": "Unpleasant feelings will escalate and get out of control."
+        },
+        {
+            "id": 32,
+            "question": "We live in a jungle and the strong person is the one who survives."
+        },
+        {
+            "id": 33,
+            "question": "I should avoid situations in which I attract attention, or be as inconspicuous as possible."
+        },
+        {
+            "id": 34,
+            "question": "If I don't keep others engaged with me, they won't like me."
+        },
+        {
+            "id": 35,
+            "question": "If I want something, I should do whatever is necessary to get it."
+        },
+        {
+            "id": 36,
+            "question": "It's better to be alone than to feel \"stuck\" with other people."
+        },
+        {
+            "id": 37,
+            "question": "Unless I entertain or impress people, I am nothing."
+        },
+        {
+            "id": 38,
+            "question": "People will get at me if I don't get them first."
+        },
+        {
+            "id": 39,
+            "question": "Any signs of tension in a relationship indicate the relationship as gone bad; therefore, I should cut it off."
+        },
+        {
+            "id": 40,
+            "question": "If I don't perform at the highest level, I will fail."
+        },
+        {
+            "id": 41,
+            "question": "Making deadlines, complying with demands and conforming are direct blows to my pride and self-sufficiency."
+        },
+        {
+            "id": 42,
+            "question": "I have been unfairly treated and am entitled to get my fair share by whatever means I can."
+        },
+        {
+            "id": 43,
+            "question": "If people get close to me, they will discover the \"real\" me and reject me."
+        },
+        {
+            "id": 44,
+            "question": "I am needy and weak."
+        },
+        {
+            "id": 45,
+            "question": "I am helpless when I'm left on my own."
+        },
+        {
+            "id": 46,
+            "question": "Other people should satisfy my needs."
+        },
+        {
+            "id": 47,
+            "question": "If I follow the rules the way people expect, it will inhibit my freedom of action."
+        },
+        {
+            "id": 48,
+            "question": "People will take advantage of me if I give them a chance."
+        },
+        {
+            "id": 49,
+            "question": "I have to be on guard at all times."
+        },
+        {
+            "id": 50,
+            "question": "My privacy is much more important to me than closeness to people."
+        },
+        {
+            "id": 51,
+            "question": "Rules are arbitrary and stifle me."
+        },
+        {
+            "id": 52,
+            "question": "It is awful if people ignore me."
+        },
+        {
+            "id": 53,
+            "question": "What other people think doesn't matter to me."
+        },
+        {
+            "id": 54,
+            "question": "In order to be happy, I need other people to pay attention to me."
+        },
+        {
+            "id": 55,
+            "question": "If I entertain people, they will not notice my weaknesses."
+        },
+        {
+            "id": 56,
+            "question": "I need somebody around available at all times to help me carry out what I need to do in case something bad happens."
+        },
+        {
+            "id": 57,
+            "question": "Any flaw or defect in my performance may lead to a catastrophe."
+        },
+        {
+            "id": 58,
+            "question": "Since I am so talented, people should go out of their way to promote my career."
+        },
+        {
+            "id": 59,
+            "question": "If I don't push other people, I will get pushed around."
+        },
+        {
+            "id": 60,
+            "question": "I don't have to be bound by the rules that apply to other people."
+        },
+        {
+            "id": 61,
+            "question": "Force or cunning is the best way to get things done."
+        },
+        {
+            "id": 62,
+            "question": "I must maintain access to my supporter or helper at all times."
+        },
+        {
+            "id": 63,
+            "question": "I am basically alone - unless I can attach myself to a stronger person."
+        },
+        {
+            "id": 64,
+            "question": "I cannot trust other people."
+        },
+        {
+            "id": 65,
+            "question": "I can't cope as other people can."
+        },
+    ]
+}

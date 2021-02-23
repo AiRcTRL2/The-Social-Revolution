@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D593CEE925E03F3A00B7A313 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D593CEE825E03F3A00B7A313 /* Home.swift */; };
+		D593CEF225E044F600B7A313 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D593CEF125E044F600B7A313 /* CircularImageView.swift */; };
+		D593CEFA25E04D3B00B7A313 /* SpeechBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D593CEF925E04D3B00B7A313 /* SpeechBubbleView.swift */; };
+		D59F3F5C25E536FE00C21B4C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D59F3F5E25E536FE00C21B4C /* Localizable.strings */; };
+		D59F3F7325E53BAA00C21B4C /* MoodQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59F3F7225E53BAA00C21B4C /* MoodQuestion.swift */; };
+		D59F3F8025E53E6100C21B4C /* AvailableEmotions.json in Resources */ = {isa = PBXBuildFile; fileRef = D59F3F7F25E53E6100C21B4C /* AvailableEmotions.json */; };
+		D59F3F8525E53ED400C21B4C /* Feeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59F3F8425E53ED400C21B4C /* Feeling.swift */; };
+		D59F3F8A25E5414E00C21B4C /* FeelingContextQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59F3F8925E5414E00C21B4C /* FeelingContextQuestion.swift */; };
+		D59F3F9725E5AB2000C21B4C /* FeelingContextQuestions.json in Resources */ = {isa = PBXBuildFile; fileRef = D59F3F9625E5AB2000C21B4C /* FeelingContextQuestions.json */; };
+		D59F3F9F25E5ADE900C21B4C /* Emotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59F3F9E25E5ADE900C21B4C /* Emotion.swift */; };
+		D5A1FB0225E2D7C4000130FC /* RoundedTextViewButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A1FB0125E2D7C4000130FC /* RoundedTextViewButtonStyle.swift */; };
 		D5C00AA625DADADE00C1757A /* The_Social_RevolutionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C00AA525DADADE00C1757A /* The_Social_RevolutionApp.swift */; };
 		D5C00AA825DADADE00C1757A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C00AA725DADADE00C1757A /* ContentView.swift */; };
 		D5C00AAA25DADADE00C1757A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C00AA925DADADE00C1757A /* Assets.xcassets */; };
@@ -15,6 +26,11 @@
 		D5C00AB225DADADE00C1757A /* The_Social_Revolution.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5C00AB025DADADE00C1757A /* The_Social_Revolution.xcdatamodeld */; };
 		D5C00ABD25DADADE00C1757A /* The_Social_RevolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C00ABC25DADADE00C1757A /* The_Social_RevolutionTests.swift */; };
 		D5C00AC825DADADE00C1757A /* The_Social_RevolutionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C00AC725DADADE00C1757A /* The_Social_RevolutionUITests.swift */; };
+		D5C00ADB25DADD1700C1757A /* PersonalityBeliefsQuestionnaireShortForm.json in Resources */ = {isa = PBXBuildFile; fileRef = D5C00ADA25DADD1700C1757A /* PersonalityBeliefsQuestionnaireShortForm.json */; };
+		D5C00AE925DADD9600C1757A /* PersonalityBeliefQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C00AE825DADD9600C1757A /* PersonalityBeliefQuestion.swift */; };
+		D5C00AEF25DADDE600C1757A /* RatingEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C00AEE25DADDE600C1757A /* RatingEnum.swift */; };
+		D5C00AF525DAE89500C1757A /* ReadLocalFileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C00AF425DAE89500C1757A /* ReadLocalFileHelper.swift */; };
+		D5C00AFA25DAE9E500C1757A /* ModelParserHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C00AF925DAE9E500C1757A /* ModelParserHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +51,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D593CEE825E03F3A00B7A313 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D593CEF125E044F600B7A313 /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
+		D593CEF925E04D3B00B7A313 /* SpeechBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechBubbleView.swift; sourceTree = "<group>"; };
+		D59F3F5D25E536FE00C21B4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D59F3F7225E53BAA00C21B4C /* MoodQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodQuestion.swift; sourceTree = "<group>"; };
+		D59F3F7F25E53E6100C21B4C /* AvailableEmotions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AvailableEmotions.json; sourceTree = "<group>"; };
+		D59F3F8425E53ED400C21B4C /* Feeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feeling.swift; sourceTree = "<group>"; };
+		D59F3F8925E5414E00C21B4C /* FeelingContextQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingContextQuestion.swift; sourceTree = "<group>"; };
+		D59F3F9625E5AB2000C21B4C /* FeelingContextQuestions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FeelingContextQuestions.json; sourceTree = "<group>"; };
+		D59F3F9E25E5ADE900C21B4C /* Emotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emotion.swift; sourceTree = "<group>"; };
+		D5A1FB0125E2D7C4000130FC /* RoundedTextViewButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextViewButtonStyle.swift; sourceTree = "<group>"; };
 		D5C00AA225DADADD00C1757A /* The Social Revolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Social Revolution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C00AA525DADADE00C1757A /* The_Social_RevolutionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Social_RevolutionApp.swift; sourceTree = "<group>"; };
 		D5C00AA725DADADE00C1757A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +76,11 @@
 		D5C00AC325DADADE00C1757A /* The Social RevolutionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Social RevolutionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C00AC725DADADE00C1757A /* The_Social_RevolutionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Social_RevolutionUITests.swift; sourceTree = "<group>"; };
 		D5C00AC925DADADE00C1757A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5C00ADA25DADD1700C1757A /* PersonalityBeliefsQuestionnaireShortForm.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PersonalityBeliefsQuestionnaireShortForm.json; sourceTree = "<group>"; };
+		D5C00AE825DADD9600C1757A /* PersonalityBeliefQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityBeliefQuestion.swift; sourceTree = "<group>"; };
+		D5C00AEE25DADDE600C1757A /* RatingEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingEnum.swift; sourceTree = "<group>"; };
+		D5C00AF425DAE89500C1757A /* ReadLocalFileHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadLocalFileHelper.swift; sourceTree = "<group>"; };
+		D5C00AF925DAE9E500C1757A /* ModelParserHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelParserHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +108,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D593CEE725E03F2200B7A313 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D593CEF025E044E100B7A313 /* ReusableViews */,
+				D593CEE825E03F3A00B7A313 /* Home.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D593CEF025E044E100B7A313 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				D5A1FB0025E2D7AF000130FC /* TextViews */,
+				D593CEF125E044F600B7A313 /* CircularImageView.swift */,
+				D593CEF925E04D3B00B7A313 /* SpeechBubbleView.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		D59F3F6D25E53B5A00C21B4C /* Personality */ = {
+			isa = PBXGroup;
+			children = (
+				D5C00AE825DADD9600C1757A /* PersonalityBeliefQuestion.swift */,
+			);
+			path = Personality;
+			sourceTree = "<group>";
+		};
+		D59F3F7125E53B6800C21B4C /* Mood */ = {
+			isa = PBXGroup;
+			children = (
+				D59F3F7225E53BAA00C21B4C /* MoodQuestion.swift */,
+				D59F3F8425E53ED400C21B4C /* Feeling.swift */,
+				D59F3F9E25E5ADE900C21B4C /* Emotion.swift */,
+				D59F3F8925E5414E00C21B4C /* FeelingContextQuestion.swift */,
+			);
+			path = Mood;
+			sourceTree = "<group>";
+		};
+		D5A1FB0025E2D7AF000130FC /* TextViews */ = {
+			isa = PBXGroup;
+			children = (
+				D5A1FB0125E2D7C4000130FC /* RoundedTextViewButtonStyle.swift */,
+			);
+			path = TextViews;
+			sourceTree = "<group>";
+		};
 		D5C00A9925DADADD00C1757A = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +177,12 @@
 		D5C00AA425DADADE00C1757A /* The Social Revolution */ = {
 			isa = PBXGroup;
 			children = (
+				D59F3F5E25E536FE00C21B4C /* Localizable.strings */,
+				D593CEE725E03F2200B7A313 /* Views */,
+				D5C00AF325DAE88800C1757A /* Helpers */,
+				D5C00AED25DADDD700C1757A /* Enums */,
+				D5C00ADF25DADD1C00C1757A /* Models */,
+				D5C00AD825DADCE000C1757A /* Networking */,
 				D5C00AA525DADADE00C1757A /* The_Social_RevolutionApp.swift */,
 				D5C00AA725DADADE00C1757A /* ContentView.swift */,
 				D5C00AA925DADADE00C1757A /* Assets.xcassets */,
@@ -134,6 +218,50 @@
 				D5C00AC925DADADE00C1757A /* Info.plist */,
 			);
 			path = "The Social RevolutionUITests";
+			sourceTree = "<group>";
+		};
+		D5C00AD825DADCE000C1757A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D5C00AD925DADCE700C1757A /* Stubs */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D5C00AD925DADCE700C1757A /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				D5C00ADA25DADD1700C1757A /* PersonalityBeliefsQuestionnaireShortForm.json */,
+				D59F3F7F25E53E6100C21B4C /* AvailableEmotions.json */,
+				D59F3F9625E5AB2000C21B4C /* FeelingContextQuestions.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		D5C00ADF25DADD1C00C1757A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D59F3F7125E53B6800C21B4C /* Mood */,
+				D59F3F6D25E53B5A00C21B4C /* Personality */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5C00AED25DADDD700C1757A /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				D5C00AEE25DADDE600C1757A /* RatingEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		D5C00AF325DAE88800C1757A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D5C00AF425DAE89500C1757A /* ReadLocalFileHelper.swift */,
+				D5C00AF925DAE9E500C1757A /* ModelParserHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +367,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D59F3F9725E5AB2000C21B4C /* FeelingContextQuestions.json in Resources */,
+				D59F3F5C25E536FE00C21B4C /* Localizable.strings in Resources */,
 				D5C00AAD25DADADE00C1757A /* Preview Assets.xcassets in Resources */,
+				D5C00ADB25DADD1700C1757A /* PersonalityBeliefsQuestionnaireShortForm.json in Resources */,
+				D59F3F8025E53E6100C21B4C /* AvailableEmotions.json in Resources */,
 				D5C00AAA25DADADE00C1757A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,10 +397,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C00AFA25DAE9E500C1757A /* ModelParserHelper.swift in Sources */,
 				D5C00AAF25DADADE00C1757A /* Persistence.swift in Sources */,
+				D59F3F8525E53ED400C21B4C /* Feeling.swift in Sources */,
 				D5C00AA825DADADE00C1757A /* ContentView.swift in Sources */,
+				D5C00AEF25DADDE600C1757A /* RatingEnum.swift in Sources */,
+				D59F3F9F25E5ADE900C21B4C /* Emotion.swift in Sources */,
+				D593CEFA25E04D3B00B7A313 /* SpeechBubbleView.swift in Sources */,
+				D593CEE925E03F3A00B7A313 /* Home.swift in Sources */,
+				D593CEF225E044F600B7A313 /* CircularImageView.swift in Sources */,
+				D5C00AF525DAE89500C1757A /* ReadLocalFileHelper.swift in Sources */,
+				D59F3F8A25E5414E00C21B4C /* FeelingContextQuestion.swift in Sources */,
 				D5C00AA625DADADE00C1757A /* The_Social_RevolutionApp.swift in Sources */,
 				D5C00AB225DADADE00C1757A /* The_Social_Revolution.xcdatamodeld in Sources */,
+				D5C00AE925DADD9600C1757A /* PersonalityBeliefQuestion.swift in Sources */,
+				D59F3F7325E53BAA00C21B4C /* MoodQuestion.swift in Sources */,
+				D5A1FB0225E2D7C4000130FC /* RoundedTextViewButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,11 +447,23 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		D59F3F5E25E536FE00C21B4C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59F3F5D25E536FE00C21B4C /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		D5C00ACA25DADADE00C1757A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -369,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

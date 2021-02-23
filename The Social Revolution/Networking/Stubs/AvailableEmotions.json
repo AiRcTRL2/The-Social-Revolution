@@ -1,0 +1,150 @@
+
+{
+    "data":
+        [
+            {
+                "id": 1,
+                "name": "happy",
+                "positive_or_negative": "positive",
+                "user_description": "",
+                "emotion_definition": null,
+                "emotion_fact": null,
+                "emotion_strategy": null
+            },
+            {
+                "id": 2,
+                "name": "ecstatic",
+                "positive_or_negative": "positive",
+                "user_description": "",
+                "emotion_definition": null,
+                "emotion_fact": null,
+                "emotion_strategy": null
+            },
+            {
+                "id": 3,
+                "name": "proud",
+                "positive_or_negative": "positive",
+                "user_description": "",
+                "emotion_definition": null,
+                "emotion_fact": null,
+                "emotion_strategy": null
+            },
+            {
+                "id": 4,
+                "name": "confident",
+                "positive_or_negative": "positive",
+                "user_description": "",
+                "emotion_definition": null,
+                "emotion_fact": null,
+                "emotion_strategy": null
+            },
+            {
+                "id": 5,
+                "name": "surprised",
+                "positive_or_negative": "positive",
+                "user_description": "",
+                "emotion_definition": null,
+                "emotion_fact": null,
+                "emotion_strategy": null
+            },
+            {
+                "id": 6,
+                "name": "social",
+                "positive_or_negative": "positive",
+                "user_description": "",
+                "emotion_definition": null,
+                "emotion_fact": null,
+                "emotion_strategy": null
+            },
+            {
+                "id": 7,
+                "name": "sad",
+                "positive_or_negative": "negative",
+                "user_description": "",
+                "emotion_definition": null,
+                "emotion_fact": null,
+                "emotion_strategy": null
+            },
+            {
+                "id": 8,
+                "name": "self conscious",
+                "positive_or_negative": "negative",
+                "user_description": "",
+                "emotion_definition": null,
+                "emotion_fact": null,
+                "emotion_strategy": null
+            },
+            {
+                "id": 9,
+                "name": "afraid",
+                "positive_or_negative": "negative",
+                "user_description": "",
+                "emotion_definition": null,
+                "emotion_fact": null,
+                "emotion_strategy": null
+            },
+            {
+                "id": 10,
+                "name": "uncertain",
+                "positive_or_negative": "negative",
+                "user_description": "",
+                "emotion_definition": null,
+                "emotion_fact": null,
+                "emotion_strategy": null
+            },
+            {
+                "id": 11,
+                "name": "worried",
+                "positive_or_negative": "negative",
+                "user_description": "",
+                "emotion_definition": null,
+                "emotion_fact": null,
+                "emotion_strategy": null
+            },
+            {
+                "id": 12,
+                "name": "sensitive",
+                "positive_or_negative": "negative",
+                "user_description": "",
+                "emotion_definition": null,
+                "emotion_fact": null,
+                "emotion_strategy": null
+            },
+            {
+                "id": 13,
+                "name": "trapped",
+                "positive_or_negative": "negative",
+                "user_description": "",
+                "emotion_definition": null,
+                "emotion_fact": null,
+                "emotion_strategy": null
+            },
+            {
+                "id": 14,
+                "name": "alienated",
+                "positive_or_negative": "negative",
+                "user_description": "",
+                "emotion_definition": null,
+                "emotion_fact": null,
+                "emotion_strategy": null
+            },
+            {
+                "id": 15,
+                "name": "misunderstood",
+                "positive_or_negative": "negative",
+                "user_description": "",
+                "emotion_definition": null,
+                "emotion_fact": null,
+                "emotion_strategy": null
+            },
+            {
+                "id": 16,
+                "name": "depressed",
+                "positive_or_negative": "negative",
+                "user_description": "",
+                "emotion_definition": null,
+                "emotion_fact": null,
+                "emotion_strategy": null
+            }
+        ]
+}
