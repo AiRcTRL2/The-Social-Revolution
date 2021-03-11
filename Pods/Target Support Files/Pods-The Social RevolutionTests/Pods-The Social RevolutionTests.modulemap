@@ -1,0 +1,6 @@
+framework module Pods_The_Social_RevolutionTests {
+  umbrella header "Pods-The Social RevolutionTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
