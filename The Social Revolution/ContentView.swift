@@ -13,15 +13,21 @@ struct ContentView: View {
 
 
     var body: some View {
-        TabView {
-            Home()
-                .tabItem { Text("Home") }
+        ZStack {
+            Color.blue.opacity(0.1)
+                .ignoresSafeArea()
             
-            Home()
-                .tabItem { Text("Second home") }
+            TabView {
+                Home()
+                    .tabItem { Text("Home") }
+                
+                Home()
+                    .tabItem { Text("Second home") }
+            }
+            .tabViewStyle(PageTabViewStyle())
+            .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
         }
-        .tabViewStyle(PageTabViewStyle())
-        .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
+
     }
 
     
