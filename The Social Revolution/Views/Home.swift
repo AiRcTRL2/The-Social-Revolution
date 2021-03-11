@@ -7,11 +7,14 @@
 
 import SwiftUI
 
+private typealias ButtonAndAction = (title: String, action: () -> ())
+
 struct Home: View {
+    @State var showPopover = false
+    @State var data = [("Process a single \nautomatic thought", {}), ("Initiate a full session", {}), ("Quick log an emotion", {})]
+    
     var body: some View {
         ZStack {
-            Color.blue.opacity(0.1)
-                .ignoresSafeArea()
             VStack {
                 // Greeting
                 Text("Good afternoon, Karim")
@@ -42,6 +45,58 @@ struct Home: View {
                 Spacer()
                 
             }.padding(.top, 20)
+            
+            // Popover overlay & Bottom right button & button menu
+            ZStack {
+                // popover overlay
+                Color.black.opacity(showPopover ? 0.5 : 0)
+                    .onTapGesture {
+                        withAnimation(.spring()) {
+                            showPopover.toggle()
+                        }
+                    }
+                
+                
+                // Bottom right corner button
+                VStack {
+                    Spacer()
+                    HStack(spacing: 20) {
+                        Spacer()
+
+                        CircularButtonView(
+                            buttonAction: {
+                                withAnimation(.spring()) {
+                                    showPopover.toggle()
+                                }
+                            }
+                        )
+                        
+                    }.padding(EdgeInsets(top: 0, leading: 0, bottom: 50, trailing: 40))
+                    
+                }
+                
+                // Button menu
+                VStack {
+                    Spacer()
+                    
+                    HStack {
+                        Spacer()
+                        
+                        VStack(alignment: .center, spacing: 20) {
+                            ForEach(0..<data.count) { index in
+                                FloatingButton(
+                                    buttonAction: data[index].1,
+                                    title: data[index].0
+                                )
+                                .padding(.trailing, CGFloat(index)*(80))
+                            }
+                        }.opacity(showPopover ? 1 : 0)
+                    }
+                    
+                }.padding(EdgeInsets(top: 0, leading: 0, bottom: 60, trailing: 0))
+            }
+                
+            
         }
     }
 }
@@ -49,5 +104,24 @@ struct Home: View {
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
         Home()
+    }
+}
+
+struct FloatingButton: View {
+    var buttonAction: () -> ()
+    var title: String
+    
+    var body: some View {
+        Button(action: {
+            buttonAction()
+        }, label: {
+            Text(title)
+                .padding(8)
+                .background(Color.white)
+                .cornerRadius(6)
+                .foregroundColor(.black)
+            }
+        )
+            
     }
 }
