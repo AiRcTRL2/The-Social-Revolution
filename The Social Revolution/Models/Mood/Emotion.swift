@@ -13,7 +13,7 @@ struct EmotionsContainer: Codable {
 }
 
 struct Emotion: Codable {
-    var id: Int
+    let id: Int
     /// The space for which the user should provide the context for their emotion (a description of the events/thoughts that led to this emootion)
     var name: String
     /// Determines whether this emotion is positive or negative

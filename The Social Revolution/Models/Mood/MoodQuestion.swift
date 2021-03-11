@@ -13,5 +13,5 @@ import Foundation
 /// This struct is responsible for managing a user's input regarding their mood and recording whether this should be probed immediately or saved for addressing later. It should have a list of questions which aim to identify the user's mood and categorise it for better understanding by the code base (random, uncategorised user input would be hard to decipher and respond to programmatically).
 struct MoodCheck {
     let question: String
-    let feelings: Feeling?
+    let feelings: Emotion?
 }
