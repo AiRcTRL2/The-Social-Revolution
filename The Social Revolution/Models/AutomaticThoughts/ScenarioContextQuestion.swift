@@ -18,8 +18,28 @@ struct ScenarioContextQuestionsContainer: Codable {
 struct ScenarioContextQuestion: Codable {
     let id: Int
     let question: String
+    let responseRequired: Bool
     let options: [String]
-    var answer: [String?]
+    var answers: [String?]
+    
+    /// Fetches non-empty answers
+    /// - Returns: A list of non-empty strings
+    func getAnswers() -> [String] {
+        return answers.filter{ $0?.isEmpty == false }.compactMap( { $0 } )
+    }
+    
+    /// Adds a non-empty string to the list of answers
+    /// - Parameter string: A non-empty string
+    /// - Returns: Success case (false if adding to answers fails)
+    mutating func appendAnswerWithSuccess(string: String) -> Bool {
+        guard string.isEmpty == false else {
+            print("did not add answer, answer was empty")
+            return false
+        }
+        
+        answers.append(string)
+        return true
+    }
 }
 
 
