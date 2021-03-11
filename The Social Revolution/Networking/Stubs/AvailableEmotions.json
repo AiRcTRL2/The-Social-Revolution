@@ -145,6 +145,24 @@
                 "emotion_definition": null,
                 "emotion_fact": null,
                 "emotion_strategy": null
+            },
+            {
+                "id": 17,
+                "name": "hopeless",
+                "positive_or_negative": "negative",
+                "user_description": "",
+                "emotion_definition": null,
+                "emotion_fact": null,
+                "emotion_strategy": null
+            },
+            {
+                "id": 18,
+                "name": "anxious",
+                "positive_or_negative": "negative",
+                "user_description": "",
+                "emotion_definition": null,
+                "emotion_fact": null,
+                "emotion_strategy": null
             }
         ]
 }

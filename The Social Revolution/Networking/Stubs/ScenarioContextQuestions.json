@@ -6,13 +6,15 @@
                 "id": 1,
                 "question": "How many other people were involved in the scenario?",
                 "options": ["just me", "one other person", "small group (1-3 others)", "large group (4 - 10)", "large meeting, party or conference (more than 10)"],
-                "answer": [null]
+                "answers": [null],
+                "response_required": true
             },
             {
                 "id": 2,
                 "question": "What type of activity were you doing / wanted to do when you felt this emotion?",
                 "options": ["day-to-day activity (going to the shop, riding the bus etc", "romantic/sexual interest", "friendly", "business", "family", "talking to a stranger", "creative arts (theatre etc)"],
-                "answer": [null]
+                "answers": [null],
+                "response_required": true
             }
         
         ]
